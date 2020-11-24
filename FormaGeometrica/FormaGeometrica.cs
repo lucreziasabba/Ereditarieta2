@@ -14,25 +14,5 @@ namespace ClassiGeometria
         {
             Tipo = t;
         }
-
-        public void CalcolaPerimetro()
-        {
-            if (Tipo == 1)
-            {
-                double CalcolcaPerimetroRettangolo(Rettangolo rettangolo)
-                {
-                    double p = Quadrilatero.NumLatiQuadrilatero * rettangolo.lato;
-                    return p;
-                }
-            }
-            if (Tipo == 2)
-            {
-                double CalcolcaPerimetroRombo(Rombo rombo)
-                {
-                    double p = Quadrilatero.NumLatiQuadrilatero * rombo.lato;
-                    return p;
-                }
-            }
-        }
     }
 }
