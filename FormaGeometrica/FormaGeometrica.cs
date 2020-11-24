@@ -9,7 +9,7 @@ namespace ClassiGeometria
     public class FormaGeometrica
     {
         internal int Tipo { get; }
-
+         
         public FormaGeometrica(int t)
         {
             Tipo = t;
